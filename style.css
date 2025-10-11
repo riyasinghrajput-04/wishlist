@@ -106,23 +106,30 @@ body {
     padding: 10px;
   }
 
-  .todos {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+  .todo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
 
-  .todo-text {
-    font-size: 16px;
-  }
+.t-checkbox {
+  position: relative; 
+  z-index: 2; 
+}
 
-  .t-checkbox {
-    width: 18px;
-    height: 18px;
-  }
+.todo-text {
+  flex: 1;
+  margin-left: 0.5rem;
+  z-index: 1;
+}
+
 }
 
 
 
  
+
 
